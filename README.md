@@ -31,8 +31,13 @@ In the `.env` file, set the MongoDB URI. For example:
 
 `MONGODB_URI=mongodb+srv://username:password@cluster0.aionf9x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
 
-### 4. Make sure the csv file_name is dataset.csv
+
 ---
+
+#### NOTE
+
+Make sure the csv filename is dataset.csv
+
 
 ### How to Run
 
