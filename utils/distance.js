@@ -3,7 +3,7 @@ require('dotenv').config();
 
 async function calculateDistance(latitude1, longitude1, latitude2, longitude2) {
     try {
-        const response = await axios.get(`https://gg-backend-assignment.azurewebsites.net/api/Distance?code=${process.env.DISTANCE_API_KEY}&latitude1=${latitude1}&longitude1=${longitude1}&latitude2=${latitude2}&longitude2=${longitude2}`);
+        const response = await axios.get(`${process.env.DISTANCE_API_KEY}&latitude1=${latitude1}&longitude1=${longitude1}&latitude2=${latitude2}&longitude2=${longitude2}`);
         //console.log(response);
         // Extract distance from the response
         const distance = response.data.distance;

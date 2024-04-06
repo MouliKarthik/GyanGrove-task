@@ -3,7 +3,7 @@ require('dotenv').config();
 
 async function getWeather(city, date) {
     try {
-        const response = await axios.get(`https://gg-backend-assignment.azurewebsites.net/api/Weather?code=${process.env.WEATHER_API_KEY}&city=${encodeURIComponent(city)}&date=${date}`);
+        const response = await axios.get(`${process.env.WEATHER_API_KEY}&city=${encodeURIComponent(city)}&date=${date}`);
         //console.log(response);
         // Extract weather data from the response
         const weatherData = response.data.weather;
