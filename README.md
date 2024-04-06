@@ -47,8 +47,8 @@ Open the postman, enter this url: `localhost:5000/events/find`
 
 And give the request body in the format of json. For example
 
-{
+`{
     "latitude": "40.7128",
     "longitude": "-74.0060",
     "date": "2024-03-15"
-}
+}`
