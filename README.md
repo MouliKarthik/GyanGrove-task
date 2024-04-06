@@ -38,7 +38,7 @@ In the `.env` file, set the MongoDB URI. For example:
 
 Make sure the csv filename is dataset.csv
 
-
+---
 ### How to Run
 
 After setting up, run this command:
