@@ -40,7 +40,7 @@ After setting up, run this command:
 
 `node app.js`
 
-
+---
 ### How to make a request
 Open the postman, enter this url: localhost:5000/events/find
 
