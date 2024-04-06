@@ -42,7 +42,7 @@ After setting up, run this command:
 
 ---
 ### How to make a request
-Open the postman, enter this url: localhost:5000/events/find
+Open the postman, enter this url: `localhost:5000/events/find`
 
 
 And give the request body in the format of json. For example
