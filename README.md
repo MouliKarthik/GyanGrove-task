@@ -15,4 +15,27 @@ This Restful app service helps to manage and query event data based on a user's 
 
 #### 1. Clone the Repository
 
-git clone https://github.com/MouliKarthik/GyanGrove-task.git
+`git clone https://github.com/MouliKarthik/GyanGrove-task.git`
+
+
+#### 2. Install Necessary Packages
+
+`npm install`
+
+
+#### 3. Setting up the Database Connection
+
+Create a `.env` file.
+
+In the `.env` file, set the MongoDB URI. For example:
+
+`MONGODB_URI=mongodb+srv://username:password@cluster0.aionf9x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
+
+
+---
+
+### How to Run
+
+After setting up, run this command:
+
+`node app.js`
